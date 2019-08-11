@@ -1,0 +1,76 @@
+.ph {
+    color: white; 
+    width: 100%; 
+    text-align: center; 
+    margin: 15px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.nav-link a {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+/**Home Page**/
+#headShot {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 75%; 
+    margin-top: 2%;
+    border: 5px solid white;
+   
+}
+#intro {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: 10px;    
+
+}
+/**About Me**/
+.bg-1 {
+    background-color: #9A0000;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.bg-2 {
+    background-color: #D75813;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.bg-3 {
+    background-color:#6ABEDB;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.bg-4 {
+    background-color:#A92F41;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+#cmu {
+    width: 100px;
+    height: 100px;
+    /*border: 3px solid white;
+    border-radius: 75%;*/
+}
+.card {
+    color: black;
+    margin: 5px auto 5px auto;
+}
+
+.video {
+    width: 275px;
+    height: 200px;
+}
