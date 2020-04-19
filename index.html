@@ -17,7 +17,7 @@
     </style>
     <title>Welcome</title>
   </head>
-  <body style="background-color: white">
+  <body>
     <!--Center This-->  
     <nav class="navbar navbar-expand-md navbar-light bg-light" style="box-shadow:0px 3px 10px grey;"> 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
@@ -32,8 +32,11 @@
             <a class="nav-link" href="about.html">About Me</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="videos.html">Videos</a>
         </li>
+           <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+         </li>
         <li class="nav-item">
             <a class="nav-link" href="links.html">Links</a>
          </li>
@@ -41,24 +44,21 @@
 </div> 
     </nav>
    
- <div class="container bg-dark rounded" style="max-width: 60rem;">
-          <div class="page-header ph center">
-                <h1>Blake Graf</h1>
+ <!--<div class="container bg-dark rounded" style="max-width: 60rem;">
+          <div class="page-header ph center phMobile">
+                <h1>TF XC Shoes</h1>
           </div>
-     </div>     
-    <div class="card bg-dark rounded" style="max-width: 60rem; margin-bottom: 15px;">
-        <p style="color: white;">Latest Review</p>
-    </div>
-    
-      <div class="card bg-light rounded" style="max-width: 60rem; margin-bottom: 10px;">
-        <img src="img/photo1.jpg" id="headShot" class="card-img center" alt="My Photo"/>
+     </div>
+-->        
+      <div class="card bg-light rounded hero-img">
+        <img src="img/tfxc.png" id="headShot" class="card-img center" alt="My Photo"/>
     <!--</div>-->
-    <div id="intro" class="card-text bg-dark">
-        <h4>Check out my website to learn more about me and my projects!</h4>
+    <div id="intro" class="card-text">
+        <h4>Check out my website to learn more about me and my videos!</h4>
     </div>
     </div>
 
-    <div class="container-fluid bg-dark text-center rounded">           
+    <div class="container-fluid bg-light text-center rounded" id="main-card-content">           
             <div class="row">
                 <div class="card center" style="width: 18rem">
                     <div class="card-body">
@@ -70,9 +70,17 @@
                 </div>                       
                 <div class="card center" style="width: 18rem">
                         <div class="card-body">
-                            <h5 class="card-title">Projects</h5>
-                            <a href="projects.html">
-                                <img src="img/code.JPG" id="cmu" class="card-img">     
+                            <h5 class="card-title">Videos</h5>
+                            <a href="videos.html">
+                                <img src="img/run-app.png" id="cmu" class="card-img">     
+                            </a>                                                                              
+                        </div>
+                 </div>
+                 <div class="card center" style="width: 18rem">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog</h5>
+                            <a href="blog.html">
+                                <img src="img/tfxc.png" id="cmu" class="card-img">     
                             </a>                                                                              
                         </div>
                  </div>
@@ -80,11 +88,18 @@
                         <div class="card-body">
                             <h5 class="card-title">Links</h5>
                             <a href="links.html">
-                                 <img src="img/github.png" id="cmu" class="card-img">
+                                 <img src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" id="cmu" class="card-img">
                             </a>                                                    
                         </div>
                  </div>                                        
         </div>
+      </div>
+    <div class="card bg-lite rounded" id="main-card-content">
+        <h2 class="card-title center text-center">Latest Video</h2>
+        <div class="card-body">
+         <iframe class="center latest-video" src="https://www.youtube.com/embed/6n45iHX2ZEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>    
+    </div>
 
 
     
