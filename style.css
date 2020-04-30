@@ -187,6 +187,10 @@ ul{
 }
 
 
+.video-desc {
+    display: none;
+}
+
 /* Media Rules */
 @media only screen and (max-width: 600px) {
   #headShot {

@@ -96,3 +96,4 @@ function setActive() {
 }
 
 //TODO: add loop to check if button is greater than zero, than add active
+
