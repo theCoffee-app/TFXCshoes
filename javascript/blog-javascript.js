@@ -13,21 +13,14 @@ trainButton.addEventListener("click", showTrain);
 reviewButton.addEventListener("click", showReview);
 leakButton.addEventListener("click", showLeak);
 
-allButton.addEventListener("click", setActive);
-//trainButton.addEventListener("click", setActive);
-//reviewButton.addEventListener("click", setActive);
-leakButton.addEventListener("click", setActive);
+// allButton.addEventListener("click", setActive);
+// trainButton.addEventListener("click", setActive);
+// reviewButton.addEventListener("click", setActive);
+// leakButton.addEventListener("click", setActive);
 
 
 function showAll() {
-    $(".card").css("display", "block");
-    
-//    $("#trainBtn").css({"color": "black",
-//                        "background-color": "white"
-//                      });
-//      $(".active").css({"color": "#fff",
-//                        "background-color": "#007bff"
-//                      });
+    $(".card").css("display", "block");    
 }
 
 function showTrain() {
@@ -39,13 +32,6 @@ function showTrain() {
     else {
         $("div").filter("#review, #sneakLeaks").css("display", "none");
     }
-    
-//    $("#trainBtn").css({"color": "#fff",
-//                        "background-color": "#007bff"
-//                      });
-//    $(".active").css({"color": "black",
-//                        "background-color": "white"
-//                      });
 }
 
 function showReview() {
@@ -56,16 +42,7 @@ function showReview() {
     }
     else {
         $("div").filter("#training, #sneakLeaks").css("display", "none");
-    }
-    
-    
-    
-//    $("#reviewBtn").css({"color": "#fff",
-//                        "background-color": "#007bff"
-//                      });
-//    $(".active").css({"color": "black",
-//                        "background-color": "white"
-//                      });
+    }        
 }
 
 function showLeak() {
@@ -81,18 +58,28 @@ function showLeak() {
 
 
 
-function setActive() {
-    //var navLink = document.getElementsByClassName('nav-link');
+// function setActive() {
+//     //var navLink = document.getElementsByClassName('nav-link');
     
-    if (this.className === "nav-link active") {
-    //if (this.className === "nav-link" && this.className === "active") {
-        this.className = "nav-link";
-        console.log("You aren't active");
-    } else {
-        this.className += " active";
-        console.log("You're Active!");
-    }
-}
+//     if (this.className === "nav-link active") {
+//     //if (this.className === "nav-link" && this.className === "active") {
+//         this.className = "nav-link";
+//         console.log("You aren't active");
+//     } else {
+//         this.className += " active";
+//         console.log("You're Active!");
+//     }
+// }
 
 //TODO: add loop to check if button is greater than zero, than add active
 
+var filters = document.getElementById("blogFilters");
+var filterBtns = document.getElementsByClassName("nav-link");
+
+for(var i = 0; i < filterBtns.length; i++) {
+    filterBtns[i].addEventListener("click", function() {        
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";              
+    });
+}
