@@ -52,8 +52,7 @@ function showLeak() {
         $("div").filter("#training, #review").css("display", "none");
     }     
     else {
-         $("div").filter("#training, #review").css("display", "none"); 
-         
+         $("div").filter("#training, #review").css("display", "none");          
     } 
 }
 
