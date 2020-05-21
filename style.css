@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
 body {
 /*    background-color: #343a40;*/
     background-color: lightgrey;
@@ -35,6 +37,13 @@ ul{
      padding-inline-start: 0px;
 }
 
+.banner-title {
+    font-family: Righteous;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 54%;
+}
 /**Home Page**/
 /*
 #headShot {
@@ -191,6 +200,22 @@ ul{
     display: none;
 }
 
+#logo-headshot {
+    max-width: 5rem;
+    max-height: 5rem;
+    border-radius: 75%;
+    margin: 2% 0% 25% 1%;
+    margin-bottom: 25%;
+    border: 2px solid white;
+}
+
+.disc-bullet {
+    list-style-type: disc;
+}
+
+.inside-bullet {
+    list-style: inside;
+}
 /* Media Rules */
 @media only screen and (max-width: 600px) {
   #headShot {
@@ -201,6 +226,16 @@ ul{
     border: 5px solid white;
    
     }
+
+    #logo-headshot {
+        max-width: 3.5rem;
+        max-height: 3.5rem;
+        border-radius: 75%;
+        margin: 2% 0% 25% 1%;
+        margin-bottom: 25%;
+        border: 2px solid white;
+    }
+
     .phMobile {
         display: block;
         margin-left: auto;
