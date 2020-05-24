@@ -19,29 +19,30 @@
   </head>
   <body>
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark"> 
+    <nav class="navbar navbar-expand-md navbar-light bg-light"> 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
                     <span class="navbar-toggler-icon"></span>
                   </button>  
 <div class="collapse navbar-collapse" id="navbar1">                        
     <ul class="nav nav-pills nav-fill">
         <li class="nav-item">
-            <a class="nav-link wl" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link wl" href="about.html">About Me</a>
+            <a class="nav-link" href="about.html">About Me</a>
          </li>
          <li class="nav-item">
             <a class="nav-link active" href="videos.html">Videos</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link wl" href="blog.html">Blog</a>
+            <a class="nav-link" href="blog.html">Blog</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link wl" href="links.html">Links</a>
+            <a class="nav-link" href="links.html">Links</a>
          </li>
     </ul>  
 </div> 
+<h3 class="banner-title">TF XC Shoes</h3>
     </nav>
 <!-- 
  <div class="container" style="width: 100%;">
@@ -58,124 +59,105 @@
          <h4>TFXC Videos</h4>
      </div>
 </div>                 
-<!--      Playlists Section -->
-               <!-- <div class="container-fluid bg-w text-center rounded">
-                    <h3>Video Playlists</h3>
-                    <div class="row">
-                         <div class="card center" style="width: 21rem">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;"><a href="https://youtu.be/6n45iHX2ZEc">Playlist for Full Reviews</a></h5>  
-                            <iframe class="video" src="https://www.youtube.com/embed/playlist?list=PLAms8dr5ILVM21R9fw9AUPtt1cOn3vCDq" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                            <p class="card-text">
-                               Check out all of my full reviews!
-                            </p>
-                        </div>
-                    </div>
-                       <div class="card center" style="width: 21rem">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;"><a href="https://youtu.be/6n45iHX2ZEc">Playlist for First Impressions</a></h5>  
-                            <iframe class="video" src="https://www.youtube.com/embed/playlist?list=PLAms8dr5ILVMyFhgQXzjcpbtRv8einLm3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                            <p class="card-text">
-                               Check out all of my first impressions!
-                            </p>
-                        </div>
-                    </div>                                   
-                    <div class="card center" style="width: 21rem">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;"><a href="https://youtu.be/6n45iHX2ZEc">Playlist for Shoe Comparisons</a></h5>  
-                            <iframe class="video" src="https://www.youtube.com/embed/playlist?list=PLAms8dr5ILVPrcFCcnAVXWTCSv4xBjKLr" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                            <p class="card-text">
-                               Check out all of my shoe comparisons!
-                            </p>
-                        </div>
-                    </div>   
-                    <div class="card center" style="width: 21rem">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;"><a href="https://youtu.be/6n45iHX2ZEc">Playlist for The Running Report</a></h5>  
-                            <iframe class="video" src="https://www.youtube.com/embed/playlist?list=PLAms8dr5ILVOhRCFoYHnJQxuMD6KqWPad" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                            <p class="card-text">
-                               Check out all of the episodes of The Running Report and Sneak Leaks!
-                            </p>
-                        </div>
-                    </div> 
-                    <div class="card center" style="width: 21rem">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;"><a href="https://youtu.be/6n45iHX2ZEc">Playlist for Top 5 Shoes</a></h5>  
-                            <iframe class="video" src="https://www.youtube.com/embed/playlist?list=PLAms8dr5ILVNDnyS_oS6XlLKukjcWGbu2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-                            <p class="card-text">
-                               Check out all of the episodes of The Running Report and Sneak Leaks!
-                            </p>
-                        </div>
-                    </div> 
-                      -- Fillers --
-                    <div class="card center" style="width: 21rem; background-color: #f9f9f9; border: none;"></div>  
-                    <div class="card center" style="width: 21rem; background-color: #f9f9f9; border: none;"></div>  
-                    <div class="card center" style="width: 21rem; background-color: #f9f9f9; border: none;"></div>  
-                     -- End Fillers --
-                </div>
-                </div> -->
-             
+            
              <div class="container-fluid bg-2 text-center rounded">
                     <h3>Latest Videos</h3>
-                    <div class="row">
+                    <div class="row-video" id="row1">
+                      <div class="card center" style="width: 21rem">
+                        <div class="card-body" onclick="showDesc('video-desc6')">                                                            
+                                <img src="./img/video-thumbs/asicsER-thumb.jpg" class="card-img">
+                            <a href="https://www.youtube.com/watch?v=J5DgP9DnmDM" target="_blank">
+                              <h5 class="card-title" style="color: black;">Asics EvoRide Review</h5> 
+                            </a>                               
+                          <div class="video-desc" id="video-desc6">                                
+                            <p class="card-text">Sitting in-between the Asics MetaRacer and the MetaGlide, the EvoRide is a modern uptempo trainer from Asics. </p>                                
+                            <h5 class="btm-link"><p><a href="https://www.youtube.com/watch?v=J5DgP9DnmDM" target="_blank">Full Video</a></p></h5>
+                          </div>  
+                        </div>
+                      </div>                                        
+                      <div class="card center" style="width: 21rem">
+                        <div class="card-body" onclick="showDesc('video-desc5')">                                                            
+                                <img src="./img/video-thumbs/peg37FIThumb.jpg" class="card-img">
+                            <a href="https://www.youtube.com/watch?v=ppoBAlHwRpE" target="_blank">
+                              <h5 class="card-title" style="color: black;">Nike Pegasus 37 First Impressions and Comparison</h5> 
+                            </a>                               
+                          <div class="video-desc" id="video-desc5">                                
+                            <p class="card-text">The Nike Pegasus gets completely redesigned! I go over my initial thoughts, and compare it to the Pegasus Turbo 2.</p>                                
+                            <h5 class="btm-link"><p><a href="https://www.youtube.com/watch?v=ppoBAlHwRpE" target="_blank">Full Video</a></p></h5>
+                          </div>  
+                        </div>
+                    </div>
                         <div class="card center" style="width: 21rem">
                             <div class="card-body" onclick="showDesc('video-desc')">                                
                                 <!-- <a href="#" target="_blank"> -->
                                     <img src="./img/video-thumbs/thumbDragonFLy.jpg" class="card-img">
-                                <!-- </a> -->
-                                <h5 class="card-title" style="color: black;">Nike ZoomX Spikes and Flats</h5>                                
+                                <a href="https://www.youtube.com/watch?v=Pk3BK1hZ5eA" target="_blank">
+                                  <h5 class="card-title" style="color: black;">Nike ZoomX Spikes and Flats</h5> 
+                                </a>                               
                               <div class="video-desc" id="video-desc">                                
                                 <p class="card-text">On the latest episode of Sneak Leaks, I talk about how distance Track athletes are finally 
                                     getting a taste of ZoomX with the new DragonFly distance spike, and the HyperFly racing flat!</p>                                
-                                <h6><p><a href="https://www.youtube.com/watch?v=Pk3BK1hZ5eA" target="_blank">Full Video</a></p></h6>
+                                <h5 class="btm-link"><p><a href="https://www.youtube.com/watch?v=Pk3BK1hZ5eA" target="_blank">Full Video</a></p></h5>
                               </div>  
                             </div>
                         </div>  
                         <div class="card center" style="width: 21rem">
                                 <div class="card-body" onclick="showDesc('video-desc1')">                                                                      
                                         <img src="./img/video-thumbs/hyperionFI.jpg" class="card-img">
-                                    <h5 class="card-title">Brooks Hyperion Tempo FI</h5>  
+                                    <a href="https://www.youtube.com/watch?v=iCcUecaZCPk" target="_blank">
+                                      <h5 class="card-title">Brooks Hyperion Tempo FI</h5>  
+                                    </a>
                                   <div class="video-desc" id="video-desc1">
                                     <p class="card-text" style="margin-top: 10px;">Watch my first impressions on Brooks new, light, fast, 
                                         and bouncy shoe. This guy uses Brooks new DNA Flash midsole.</p>
-                                    <h6><p><a href="https://www.youtube.com/watch?v=iCcUecaZCPk&t=85s" target="_blank">Full Video</a></p></h6>
+                                    <h5 class="btm-link"><p><a href="https://www.youtube.com/watch?v=iCcUecaZCPk" target="_blank">Full Video</a></p></h5>
                                   </div>  
                                 </div>
                          </div>                                             
                          <div class="card center" style="width: 21rem">
                                 <div class="card-body" onclick="showDesc('video-desc2')">                                                                                                    
                                         <img src="./img/video-thumbs/gt2000thumb.jpg" class="card-img">                                    
-                                    <h5 class="card-title">Asics GT-2000 8 Review</h5>
+                                      <a href="https://www.youtube.com/watch?v=iCcUecaZCPk" target="_blank">
+                                        <h5 class="card-title">Asics GT-2000 8 Review</h5>
+                                      </a>
                                   <div class="video-desc" id="video-desc2">
                                     <p class="card-text">The gap between the GT-2000 and the Kayano keeps getting smaller and smaller. 
                                         The new version of this shoe is softer with a smoother ride.</p>
-                                    <h6><p><a href="https://www.youtube.com/watch?v=iCcUecaZCPk&t=85s" target="_blank">Full Video</a></p></h6>
+                                    <h5 class="btm-link"><p><a href="https://www.youtube.com/watch?v=iCcUecaZCPk" target="_blank">Full Video</a></p></h5>
                                   </div>
                                 </div>
                          </div>
                          <div class="card center" style="width: 21rem">
                                 <div class="card-body" onclick="showDesc('video-desc3')">                                                                       
                                         <img src="./img/video-thumbs/2020marathon.jpg" class="card-img">                                    
-                                    <h5 class="card-title">2020 Marathon Running Shoe Guide</h5> 
+                                      <a href="https://www.youtube.com/watch?v=HXhvcrFv8ds" target="_blank">
+                                        <h5 class="card-title">2020 Marathon Running Shoe Guide</h5> 
+                                      </a>
                                   <div class="video-desc" id="video-desc3">
                                     <p class="card-text">This year has been an arms race for shoe companies to release their marathon racing 
                                         shoe with bouncy foam and a carbon plate. Check out all of the new super shoes!</p>
-                                    <h6><p><a href="https://www.youtube.com/watch?v=HXhvcrFv8ds" target="_blank">Full Video</a></p></h6>
+                                    <h5 class="btm-link"><p><a href="https://www.youtube.com/watch?v=HXhvcrFv8ds" target="_blank">Full Video</a></p></h5>
                                    </div>  
                                 </div>
                          </div>
                          <div class="card center" style="width: 21rem">
                                 <div class="card-body" onclick="showDesc('video-desc4')">                                                                       
-                                        <img src="./img/video-thumbs/hierroGTX.jpg" class="card-img">                                    
-                                    <h5 class="card-title">New Balance Hierro v5 GTX Review</h5> 
+                                        <img src="./img/video-thumbs/hierroGTX.jpg" class="card-img"> 
+                                    <a href="https://www.youtube.com/watch?v=1jjjGlnoAC4" target="_blank">                                   
+                                      <h5 class="card-title">New Balance Hierro v5 GTX Review</h5> 
+                                    </a>
                                   <div class="video-desc" id="video-desc4">
                                     <p class="card-text">New Balance's high cushioned trail shoe goes waterproof! This version of the shoe is great for rain and snow.</p>
-                                    <h6><p><a href="https://www.youtube.com/watch?v=1jjjGlnoAC4" target="_blank">Full Video</a></p></h6>
+                                    <h5 class="btm-link"><p><a href="https://www.youtube.com/watch?v=1jjjGlnoAC4" target="_blank">Full Video</a></p></h5>
                                    </div>  
                                 </div>
-                        <div class="card center" style="width: 21rem; background-color: #D75813; border: none;"></div> <!-- Filler -->
+                        <!-- <div class="card center" style="width: 21rem; background-color: #D75813; border: none;"></div> Filler -->
                     </div>
                     </div> 
+                   <div>
+                     <button id="see-more">See More</button>
+                     <button id="see-less" style="display: none;">See Less</button>
+                   </div> 
                 </div>
 
                     <div class="container-fluid bg-3 text-center rounded">
@@ -189,7 +171,7 @@
                                         <h5 class="card-title" style="color: black;">Shoe Reviews</h5>                                
                                       <div class="video-desc" id="video-desc5">                                
                                         <p class="card-text">Watch my full, indepth reviews after running at least 100 miles in the shoe!</p>                                
-                                        <h6><p><a href="https://www.youtube.com/playlist?list=PLAms8dr5ILVM21R9fw9AUPtt1cOn3vCDq" target="_blank">Full Playlist</a></p></h6>
+                                        <h5 class="btm-link"><p><a href="https://www.youtube.com/playlist?list=PLAms8dr5ILVM21R9fw9AUPtt1cOn3vCDq" target="_blank">Full Playlist</a></p></h5>
                                       </div>  
                                     </div>
                                 </div>  
@@ -199,7 +181,7 @@
                                             <h5 class="card-title">Shoe First Impressions</h5>  
                                           <div class="video-desc" id="video-desc6">
                                             <p class="card-text" style="margin-top: 10px;">In my first impressions videos, I give my thoughts after some initial runs and compare it to other shoes.</p>
-                                            <h6><p><a href="https://www.youtube.com/playlist?list=PLAms8dr5ILVMyFhgQXzjcpbtRv8einLm3" target="_blank">Full Playlist</a></p></h6>
+                                            <h5 class="btm-link"><p><a href="https://www.youtube.com/playlist?list=PLAms8dr5ILVMyFhgQXzjcpbtRv8einLm3" target="_blank">Full Playlist</a></p></h5>
                                           </div>  
                                         </div>
                                  </div>                                             
@@ -209,7 +191,7 @@
                                             <h5 class="card-title">Shoe Comparisons</h5>
                                           <div class="video-desc" id="video-desc7">
                                             <p class="card-text">Two different shoes go toe to toe. I go in depth about what makes them different.</p>
-                                            <h6><p><a href="https://www.youtube.com/playlist?list=PLAms8dr5ILVPrcFCcnAVXWTCSv4xBjKLr" target="_blank">Full Playlist</a></p></h6>
+                                            <h5 class="btm-link"><p><a href="https://www.youtube.com/playlist?list=PLAms8dr5ILVPrcFCcnAVXWTCSv4xBjKLr" target="_blank">Full Playlist</a></p></h5>
                                           </div>
                                         </div>
                                  </div>
@@ -219,7 +201,7 @@
                                             <h5 class="card-title">The Running Report</h5> 
                                           <div class="video-desc" id="video-desc8">
                                             <p class="card-text">My news segment going over running related news and even leaks about upcoming shoes.</p>
-                                            <h6><p><a href="https://www.youtube.com/playlist?list=PLAms8dr5ILVOhRCFoYHnJQxuMD6KqWPad" target="_blank">Full Playlist</a></p></h6>
+                                            <h5 class="btm-link"><p><a href="https://www.youtube.com/playlist?list=PLAms8dr5ILVOhRCFoYHnJQxuMD6KqWPad" target="_blank">Full Playlist</a></p></h5>
                                            </div>  
                                         </div>
                                  </div>
@@ -229,7 +211,7 @@
                                             <h5 class="card-title">Top 5</h5> 
                                           <div class="video-desc" id="video-desc9">
                                             <p class="card-text">I compile a list of the top new shoes that I'm looking forward to or have tested out.</p>
-                                            <h6><p><a href="https://www.youtube.com/playlist?list=PLAms8dr5ILVNDnyS_oS6XlLKukjcWGbu2" target="_blank">Full Playlist</a></p></h6>
+                                            <h5 class="btm-link"><p><a href="https://www.youtube.com/playlist?list=PLAms8dr5ILVNDnyS_oS6XlLKukjcWGbu2" target="_blank">Full Playlist</a></p></h5>
                                            </div>  
                                         </div>
                                 <div class="card center" style="width: 21rem; background-color: #D75813; border: none;"></div> <!-- Filler -->
