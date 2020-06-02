@@ -39,5 +39,7 @@ function showLess() {
     row1.style.overflow = "hidden"
     seeLessBtn.style.display = "none";
     seeMoreBtn.style.display = "inline-block";
+    document.body.scrollTop = 100;
+    document.documentElement.scrollTop = 100;
 };
 
