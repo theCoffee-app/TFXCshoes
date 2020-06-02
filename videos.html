@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Watch my videos from my YouTube channel, TF XC Running Shoe Reviews, where I bring you the latest running shoe news and reviews.">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -15,7 +16,7 @@
             margin-top: 10px;
         }
     </style>
-    <title>Video Reviews</title>
+    <title>TF XC Shoes Video Reviews</title>
   </head>
   <body>
     <!--Nav Bar-->
@@ -63,6 +64,30 @@
              <div class="container-fluid bg-2 text-center rounded">
                     <h3>Latest Videos</h3>
                     <div class="row-video" id="row1">
+                      <div class="card center" style="width: 21rem">
+                        <div class="card-body" onclick="showDesc('video-desc8')">                                                            
+                                <img src="./img/video-thumbs/HypTempoThumb.jpg" class="card-img">
+                            <a href="https://www.youtube.com/watch?v=WCu8CHeLB6E" target="_blank">
+                              <h5 class="card-title" style="color: black;">Brooks Hyperion Tempo Review</h5> 
+                            </a>                               
+                          <div class="video-desc" id="video-desc8">                                
+                            <p class="card-text">After 100 miles and various types of runs, I bring you my in-depth review of the Brooks Hyperion Tempo.    </p>                                
+                            <h5 class="btm-link"><p><a href="https://www.youtube.com/watch?v=WCu8CHeLB6E" target="_blank">Full Video</a></p></h5>
+                          </div>  
+                        </div>
+                      </div>
+                      <div class="card center" style="width: 21rem">
+                        <div class="card-body" onclick="showDesc('video-desc7')">                                                            
+                                <img src="./img/Clifton-Blog/cliftonEvo2Thumb.jpg" class="card-img">
+                            <a href="https://www.youtube.com/watch?v=pCKdk-ArY5o" target="_blank">
+                              <h5 class="card-title" style="color: black;">Hoka Clifton Evolution and Lineup 2020</h5> 
+                            </a>                               
+                          <div class="video-desc" id="video-desc7">                                
+                            <p class="card-text">The Clifton has evolved a lot over the years. Twenty-twenty brings a new look and a new model to the lineup.  </p>                                
+                            <h5 class="btm-link"><p><a href="https://www.youtube.com/watch?v=pCKdk-ArY5o" target="_blank">Full Video</a></p></h5>
+                          </div>  
+                        </div>
+                      </div>
                       <div class="card center" style="width: 21rem">
                         <div class="card-body" onclick="showDesc('video-desc6')">                                                            
                                 <img src="./img/video-thumbs/asicsER-thumb.jpg" class="card-img">
@@ -155,8 +180,8 @@
                     </div>
                     </div> 
                    <div>
-                     <button id="see-more">See More</button>
-                     <button id="see-less" style="display: none;">See Less</button>
+                     <button id="see-more" class="see-btn">See More</button>
+                     <button id="see-less" class="see-btn" style="display: none;">See Less</button>
                    </div> 
                 </div>
 

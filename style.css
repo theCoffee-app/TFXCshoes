@@ -192,6 +192,14 @@ ul{
         height: 400px;
     } 
 
+.see-btn {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: .5rem;
+    padding: 5px 10px;
+}
+
 #see-more {
     margin-top: 1%;
 }
