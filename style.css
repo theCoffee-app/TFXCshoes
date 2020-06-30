@@ -7,7 +7,7 @@ body {
 }
 
 .ph {
-    color: white; 
+    color: black; 
     width: 100%; 
     text-align: center; 
     margin: 15px;
@@ -248,6 +248,14 @@ ul{
 .inside-bullet {
     list-style: inside;
 }
+
+#about-me-desc {
+    width: 63rem;
+}
+
+.stndrd-width {
+    width: 24rem;
+}
 /* Media Rules */
 @media only screen and (max-width: 600px) {
   #headShot {
@@ -293,6 +301,11 @@ ul{
     #see-more {
         display: none;
     }
+
+    .home-imgs {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 /* iPad Media */
@@ -303,5 +316,20 @@ ul{
         margin-left: auto;
         margin-right: auto;
         width: 35%;
+    }
+}
+
+@media only screen and (min-width: 1025px)  {
+    #about-me1 {
+        margin: 5px 0 5px auto;
+    }
+    #about-me-desc {        
+        margin: 5px 0 5px 0;
+    }
+    #about-me3 {
+        margin: 5px auto 5px 0;
+    }
+    .stndrd-width {
+        width: 18rem;
     }
 }
